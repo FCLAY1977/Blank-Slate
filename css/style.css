@@ -157,7 +157,7 @@ a:hover, a:active {
   .modal-content {
     background-color: #4ddd71;
     margin: 15% auto; /* 15% from the top and centered */
-    padding: 20px;
+    padding: 10px;
     border: 1px solid #4f7483;
     width: 80%; /* Could be more or less, depending on screen size */
     font-weight: bolder;
