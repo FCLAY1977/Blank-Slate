@@ -292,6 +292,13 @@ section h4 {
     font-size: 18px;
 }
 
+section h5 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+
+}
+
 section p {
     font-family: 'Cabin', sans-serif;
     line-height: 1.5;
@@ -341,14 +348,28 @@ footer {
 
     .hero-content {
 
-        flex-direction: column;       
+        flex-direction:column;       
 
 
     }
-
-
-
 }
+
+
+
+
+
+@media only screen and (max-width: 892px){
+ 
+
+    .hero-content h5{
+
+        margin: 167px 416px 4px -8px;
+
+       
+
+    }
+
+    }
 
 
 
