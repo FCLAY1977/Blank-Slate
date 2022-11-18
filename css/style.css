@@ -328,6 +328,32 @@ footer {
 
 /*MEDIA QUERIES*/
 
+
+@media only screen and (max-width: 800px) {
+
+    .hero-container {
+       height:auto;
+
+
+
+
+    }
+
+    .hero-content {
+
+        flex-direction: column;       
+
+
+    }
+
+
+
+}
+
+
+
+
+
 @media only screen and (min-width: 768px) {
 	
     .projects-content {
@@ -369,4 +395,3 @@ footer {
 
 }
 
-}
